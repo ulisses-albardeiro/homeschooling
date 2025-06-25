@@ -36,4 +36,8 @@ export interface User {
     updated_at: string;
 }
 
+declare module '@inertiajs/core' {
+    interface PageProps extends SharedData {} 
+}
+
 export type BreadcrumbItemType = BreadcrumbItem;
