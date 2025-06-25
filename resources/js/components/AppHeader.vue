@@ -44,6 +44,11 @@ const mainNavItems: NavItem[] = [
         href: '/dashboard',
         icon: LayoutGrid,
     },
+    {
+        title: 'Planos',
+        href: '/planning',
+        icon: Folder,
+    },
 ];
 
 const rightNavItems: NavItem[] = [
